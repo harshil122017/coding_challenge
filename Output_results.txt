@@ -1,0 +1,981 @@
+C:\Users\mm98313\AppData\Local\Programs\Python\Python37-32\python.exe C:/Users/mm98313/Downloads/harshil_interview/test.py
+Answer 2a: Get only the maximum rating for an industry
++-------------------+----------+
+| industry          |   rating |
+|-------------------+----------|
+| Business Services |      780 |
+| Energy/Resources  |      710 |
+| Engineering       |      760 |
+| Finance           |      700 |
+| Manufacturing     |      770 |
+| Technology        |      760 |
++-------------------+----------+
+Answer 2b: Get the minimum rating of a child company for the parent company
++------------------------------------------+-----+-----+
+|                                          |   0 |   1 |
+|------------------------------------------+-----+-----|
+| rating                                   | 490 | 700 |
+| children_0_rating                        | 650 | nan |
+| children_1_rating                        | 730 | nan |
+| children_2_rating                        | 560 | nan |
+| children_3_rating                        | 750 | nan |
+| children_3_children_0_rating             | 770 | nan |
+| children_3_children_1_rating             | 730 | nan |
+| children_4_rating                        | 510 | nan |
+| children_4_children_0_rating             | 760 | nan |
+| children_4_children_1_rating             | 740 | nan |
+| children_4_children_2_rating             | 590 | nan |
+| children_4_children_2_children_0_rating  | 640 | nan |
+| children_4_children_2_children_1_rating  | 610 | nan |
+| children_4_children_2_children_2_rating  | 650 | nan |
+| children_4_children_3_rating             | 620 | nan |
+| children_4_children_4_rating             | 550 | nan |
+| children_4_children_4_children_0_rating  | 740 | nan |
+| children_4_children_4_children_1_rating  | 740 | nan |
+| children_4_children_4_children_2_rating  | 490 | nan |
+| children_4_children_4_children_3_rating  | 730 | nan |
+| children_4_children_4_children_4_rating  | 780 | nan |
+| children_4_children_4_children_5_rating  | 690 | nan |
+| children_4_children_4_children_6_rating  | 730 | nan |
+| children_4_children_4_children_7_rating  | 750 | nan |
+| children_4_children_4_children_8_rating  | 770 | nan |
+| children_4_children_4_children_9_rating  | 670 | nan |
+| children_4_children_4_children_10_rating | 740 | nan |
+| children_4_children_4_children_11_rating | 740 | nan |
+| children_4_children_4_children_12_rating | 740 | nan |
+| children_4_children_5_rating             | 630 | nan |
+| children_4_children_6_rating             | 570 | nan |
+| children_4_children_7_rating             | 680 | nan |
+| children_5_rating                        | 620 | nan |
+| children_5_children_0_rating             | 700 | nan |
+| children_5_children_1_rating             | 760 | nan |
+| children_5_children_2_rating             | 610 | nan |
+| children_5_children_2_children_0_rating  | 620 | nan |
+| children_5_children_2_children_1_rating  | 760 | nan |
+| children_5_children_2_children_2_rating  | 660 | nan |
+| children_5_children_2_children_3_rating  | 740 | nan |
+| children_5_children_2_children_4_rating  | 760 | nan |
+| children_6_rating                        | 710 | nan |
+| children_7_rating                        | 720 | nan |
+| children_8_rating                        | 730 | nan |
+| children_9_rating                        | 730 | nan |
+| children_10_rating                       | 720 | nan |
+| children_11_rating                       | 670 | nan |
+| children_12_rating                       | 720 | nan |
+| children_13_rating                       | 530 | nan |
+| children_13_children_0_rating            | 610 | nan |
+| children_13_children_1_rating            | 520 | nan |
+| children_13_children_1_children_0_rating | 570 | nan |
+| children_13_children_1_children_1_rating | 580 | nan |
+| children_13_children_1_children_2_rating | 720 | nan |
+| children_13_children_2_rating            | 730 | nan |
+| children_14_rating                       | 740 | nan |
+| children_15_rating                       | 710 | nan |
++------------------------------------------+-----+-----+
+Answer 2b: Get the minimum rating of a child company for the parent company
++-----+-------------------------------------------------------+---------------------------------------------------+
+|     | variable                                              | value                                             |
+|-----+-------------------------------------------------------+---------------------------------------------------|
+|   0 | guid                                                  | 69012de7-10d4-4b13-940c-872e8cc4a0f0              |
+|   1 | guid                                                  | 5ec089ca-beb6-42e4-9184-216a7fd95612              |
+|   2 | name                                                  | KYOCERA Group                                     |
+|   3 | name                                                  | Huntington Bancshares, Inc.                       |
+|   4 | rating                                                | 490                                               |
+|   5 | rating                                                | 700                                               |
+|   6 | industry                                              | Manufacturing                                     |
+|   7 | industry                                              | Finance                                           |
+|   8 | is_service_provider                                   | False                                             |
+|   9 | is_service_provider                                   | False                                             |
+|  10 | rating_type                                           | CURATED                                           |
+|  11 | rating_type                                           | CURATED                                           |
+|  12 | is_subscribed                                         | False                                             |
+|  13 | is_subscribed                                         | True                                              |
+|  14 | children_0_guid                                       | 28837c60-21e8-49d2-aa29-6ab1a69af529              |
+|  15 | children_0_guid                                       | nan                                               |
+|  16 | children_0_name                                       | KYOCERA Asia Pacific Pte. Ltd.                    |
+|  17 | children_0_name                                       | nan                                               |
+|  18 | children_0_rating                                     | 650.0                                             |
+|  19 | children_0_rating                                     | nan                                               |
+|  20 | children_0_industry                                   | Manufacturing                                     |
+|  21 | children_0_industry                                   | nan                                               |
+|  22 | children_0_is_service_provider                        | False                                             |
+|  23 | children_0_is_service_provider                        | nan                                               |
+|  24 | children_0_rating_type                                | CURATED                                           |
+|  25 | children_0_rating_type                                | nan                                               |
+|  26 | children_0_is_subscribed                              | False                                             |
+|  27 | children_0_is_subscribed                              | nan                                               |
+|  28 | children_0_children                                   | []                                                |
+|  29 | children_0_children                                   | nan                                               |
+|  30 | children_1_guid                                       | adbbff76-3846-46f3-bdd8-f0c4206e6803              |
+|  31 | children_1_guid                                       | nan                                               |
+|  32 | children_1_name                                       | KYOCERA Chemical (Wuxi) Co., Ltd.                 |
+|  33 | children_1_name                                       | nan                                               |
+|  34 | children_1_rating                                     | 730.0                                             |
+|  35 | children_1_rating                                     | nan                                               |
+|  36 | children_1_industry                                   | Manufacturing                                     |
+|  37 | children_1_industry                                   | nan                                               |
+|  38 | children_1_is_service_provider                        | False                                             |
+|  39 | children_1_is_service_provider                        | nan                                               |
+|  40 | children_1_rating_type                                | CURATED                                           |
+|  41 | children_1_rating_type                                | nan                                               |
+|  42 | children_1_is_subscribed                              | False                                             |
+|  43 | children_1_is_subscribed                              | nan                                               |
+|  44 | children_1_children                                   | []                                                |
+|  45 | children_1_children                                   | nan                                               |
+|  46 | children_2_guid                                       | b159d957-ec00-480a-948a-fb690836442a              |
+|  47 | children_2_guid                                       | nan                                               |
+|  48 | children_2_name                                       | KYOCERA Corporation                               |
+|  49 | children_2_name                                       | nan                                               |
+|  50 | children_2_rating                                     | 560.0                                             |
+|  51 | children_2_rating                                     | nan                                               |
+|  52 | children_2_industry                                   | Manufacturing                                     |
+|  53 | children_2_industry                                   | nan                                               |
+|  54 | children_2_is_service_provider                        | False                                             |
+|  55 | children_2_is_service_provider                        | nan                                               |
+|  56 | children_2_rating_type                                | CURATED                                           |
+|  57 | children_2_rating_type                                | nan                                               |
+|  58 | children_2_is_subscribed                              | False                                             |
+|  59 | children_2_is_subscribed                              | nan                                               |
+|  60 | children_2_children                                   | []                                                |
+|  61 | children_2_children                                   | nan                                               |
+|  62 | children_3_guid                                       | 7585a01a-fa62-4c26-be3f-f8e82aa819e0              |
+|  63 | children_3_guid                                       | nan                                               |
+|  64 | children_3_name                                       | KYOCERA Display Group                             |
+|  65 | children_3_name                                       | nan                                               |
+|  66 | children_3_rating                                     | 750.0                                             |
+|  67 | children_3_rating                                     | nan                                               |
+|  68 | children_3_industry                                   | Manufacturing                                     |
+|  69 | children_3_industry                                   | nan                                               |
+|  70 | children_3_is_service_provider                        | False                                             |
+|  71 | children_3_is_service_provider                        | nan                                               |
+|  72 | children_3_rating_type                                | CURATED                                           |
+|  73 | children_3_rating_type                                | nan                                               |
+|  74 | children_3_is_subscribed                              | False                                             |
+|  75 | children_3_is_subscribed                              | nan                                               |
+|  76 | children_3_children_0_guid                            | 5c0ec5d1-f582-422b-8881-bdfada235ce5              |
+|  77 | children_3_children_0_guid                            | nan                                               |
+|  78 | children_3_children_0_name                            | KYOCERA Display Corporation                       |
+|  79 | children_3_children_0_name                            | nan                                               |
+|  80 | children_3_children_0_rating                          | 770.0                                             |
+|  81 | children_3_children_0_rating                          | nan                                               |
+|  82 | children_3_children_0_industry                        | Manufacturing                                     |
+|  83 | children_3_children_0_industry                        | nan                                               |
+|  84 | children_3_children_0_is_service_provider             | False                                             |
+|  85 | children_3_children_0_is_service_provider             | nan                                               |
+|  86 | children_3_children_0_rating_type                     | CURATED                                           |
+|  87 | children_3_children_0_rating_type                     | nan                                               |
+|  88 | children_3_children_0_is_subscribed                   | False                                             |
+|  89 | children_3_children_0_is_subscribed                   | nan                                               |
+|  90 | children_3_children_0_children                        | []                                                |
+|  91 | children_3_children_0_children                        | nan                                               |
+|  92 | children_3_children_1_guid                            | d7bdd7da-3c5b-4209-86aa-9899ade317c6              |
+|  93 | children_3_children_1_guid                            | nan                                               |
+|  94 | children_3_children_1_name                            | KYOCERA International, Inc. - Display Division    |
+|  95 | children_3_children_1_name                            | nan                                               |
+|  96 | children_3_children_1_rating                          | 730.0                                             |
+|  97 | children_3_children_1_rating                          | nan                                               |
+|  98 | children_3_children_1_industry                        | Manufacturing                                     |
+|  99 | children_3_children_1_industry                        | nan                                               |
+| 100 | children_3_children_1_is_service_provider             | False                                             |
+| 101 | children_3_children_1_is_service_provider             | nan                                               |
+| 102 | children_3_children_1_rating_type                     | CURATED                                           |
+| 103 | children_3_children_1_rating_type                     | nan                                               |
+| 104 | children_3_children_1_is_subscribed                   | False                                             |
+| 105 | children_3_children_1_is_subscribed                   | nan                                               |
+| 106 | children_3_children_1_children                        | []                                                |
+| 107 | children_3_children_1_children                        | nan                                               |
+| 108 | children_4_guid                                       | 06c8cb4d-d3e8-40a4-9be5-20886a453468              |
+| 109 | children_4_guid                                       | nan                                               |
+| 110 | children_4_name                                       | KYOCERA Document Solutions Group                  |
+| 111 | children_4_name                                       | nan                                               |
+| 112 | children_4_rating                                     | 510.0                                             |
+| 113 | children_4_rating                                     | nan                                               |
+| 114 | children_4_industry                                   | Manufacturing                                     |
+| 115 | children_4_industry                                   | nan                                               |
+| 116 | children_4_is_service_provider                        | False                                             |
+| 117 | children_4_is_service_provider                        | nan                                               |
+| 118 | children_4_rating_type                                | CURATED                                           |
+| 119 | children_4_rating_type                                | nan                                               |
+| 120 | children_4_is_subscribed                              | False                                             |
+| 121 | children_4_is_subscribed                              | nan                                               |
+| 122 | children_4_children_0_guid                            | 3b510573-53a7-45ba-b221-4051fd274209              |
+| 123 | children_4_children_0_guid                            | nan                                               |
+| 124 | children_4_children_0_name                            | Annodata Limited                                  |
+| 125 | children_4_children_0_name                            | nan                                               |
+| 126 | children_4_children_0_rating                          | 760.0                                             |
+| 127 | children_4_children_0_rating                          | nan                                               |
+| 128 | children_4_children_0_industry                        | Technology                                        |
+| 129 | children_4_children_0_industry                        | nan                                               |
+| 130 | children_4_children_0_is_service_provider             | False                                             |
+| 131 | children_4_children_0_is_service_provider             | nan                                               |
+| 132 | children_4_children_0_rating_type                     | CURATED                                           |
+| 133 | children_4_children_0_rating_type                     | nan                                               |
+| 134 | children_4_children_0_is_subscribed                   | False                                             |
+| 135 | children_4_children_0_is_subscribed                   | nan                                               |
+| 136 | children_4_children_0_children                        | []                                                |
+| 137 | children_4_children_0_children                        | nan                                               |
+| 138 | children_4_children_1_guid                            | 6b6ab696-8717-4b5e-8043-67ed6febbca0              |
+| 139 | children_4_children_1_guid                            | nan                                               |
+| 140 | children_4_children_1_name                            | Ceyoniq Technology GmbH                           |
+| 141 | children_4_children_1_name                            | nan                                               |
+| 142 | children_4_children_1_rating                          | 740.0                                             |
+| 143 | children_4_children_1_rating                          | nan                                               |
+| 144 | children_4_children_1_industry                        | Technology                                        |
+| 145 | children_4_children_1_industry                        | nan                                               |
+| 146 | children_4_children_1_is_service_provider             | False                                             |
+| 147 | children_4_children_1_is_service_provider             | nan                                               |
+| 148 | children_4_children_1_rating_type                     | CURATED                                           |
+| 149 | children_4_children_1_rating_type                     | nan                                               |
+| 150 | children_4_children_1_is_subscribed                   | False                                             |
+| 151 | children_4_children_1_is_subscribed                   | nan                                               |
+| 152 | children_4_children_1_children                        | []                                                |
+| 153 | children_4_children_1_children                        | nan                                               |
+| 154 | children_4_children_2_guid                            | ad8b9521-d8b8-4c02-bbe8-74dfbcc11255              |
+| 155 | children_4_children_2_guid                            | nan                                               |
+| 156 | children_4_children_2_name                            | KYOCERA Document Solutions Asia Companies         |
+| 157 | children_4_children_2_name                            | nan                                               |
+| 158 | children_4_children_2_rating                          | 590.0                                             |
+| 159 | children_4_children_2_rating                          | nan                                               |
+| 160 | children_4_children_2_industry                        | Business Services                                 |
+| 161 | children_4_children_2_industry                        | nan                                               |
+| 162 | children_4_children_2_is_service_provider             | False                                             |
+| 163 | children_4_children_2_is_service_provider             | nan                                               |
+| 164 | children_4_children_2_rating_type                     | CURATED                                           |
+| 165 | children_4_children_2_rating_type                     | nan                                               |
+| 166 | children_4_children_2_is_subscribed                   | False                                             |
+| 167 | children_4_children_2_is_subscribed                   | nan                                               |
+| 168 | children_4_children_2_children_0_guid                 | 61277b5d-38cf-471a-afc3-082e7671a710              |
+| 169 | children_4_children_2_children_0_guid                 | nan                                               |
+| 170 | children_4_children_2_children_0_name                 | KYOCERA Document Solutions (Thailand) Corp., Ltd. |
+| 171 | children_4_children_2_children_0_name                 | nan                                               |
+| 172 | children_4_children_2_children_0_rating               | 640.0                                             |
+| 173 | children_4_children_2_children_0_rating               | nan                                               |
+| 174 | children_4_children_2_children_0_industry             | Business Services                                 |
+| 175 | children_4_children_2_children_0_industry             | nan                                               |
+| 176 | children_4_children_2_children_0_is_service_provider  | False                                             |
+| 177 | children_4_children_2_children_0_is_service_provider  | nan                                               |
+| 178 | children_4_children_2_children_0_rating_type          | CURATED                                           |
+| 179 | children_4_children_2_children_0_rating_type          | nan                                               |
+| 180 | children_4_children_2_children_0_is_subscribed        | False                                             |
+| 181 | children_4_children_2_children_0_is_subscribed        | nan                                               |
+| 182 | children_4_children_2_children_0_children             | []                                                |
+| 183 | children_4_children_2_children_0_children             | nan                                               |
+| 184 | children_4_children_2_children_1_guid                 | 28aac3bc-2e4a-4bc7-98b2-ce475cd07ea7              |
+| 185 | children_4_children_2_children_1_guid                 | nan                                               |
+| 186 | children_4_children_2_children_1_name                 | KYOCERA Document Solutions Asia Limited           |
+| 187 | children_4_children_2_children_1_name                 | nan                                               |
+| 188 | children_4_children_2_children_1_rating               | 610.0                                             |
+| 189 | children_4_children_2_children_1_rating               | nan                                               |
+| 190 | children_4_children_2_children_1_industry             | Business Services                                 |
+| 191 | children_4_children_2_children_1_industry             | nan                                               |
+| 192 | children_4_children_2_children_1_is_service_provider  | False                                             |
+| 193 | children_4_children_2_children_1_is_service_provider  | nan                                               |
+| 194 | children_4_children_2_children_1_rating_type          | CURATED                                           |
+| 195 | children_4_children_2_children_1_rating_type          | nan                                               |
+| 196 | children_4_children_2_children_1_is_subscribed        | False                                             |
+| 197 | children_4_children_2_children_1_is_subscribed        | nan                                               |
+| 198 | children_4_children_2_children_1_children             | []                                                |
+| 199 | children_4_children_2_children_1_children             | nan                                               |
+| 200 | children_4_children_2_children_2_guid                 | e14470f7-09d4-4a25-bf55-c1719ca60b0c              |
+| 201 | children_4_children_2_children_2_guid                 | nan                                               |
+| 202 | children_4_children_2_children_2_name                 | KYOCERA Document Solutions Hong Kong Limited      |
+| 203 | children_4_children_2_children_2_name                 | nan                                               |
+| 204 | children_4_children_2_children_2_rating               | 650.0                                             |
+| 205 | children_4_children_2_children_2_rating               | nan                                               |
+| 206 | children_4_children_2_children_2_industry             | Business Services                                 |
+| 207 | children_4_children_2_children_2_industry             | nan                                               |
+| 208 | children_4_children_2_children_2_is_service_provider  | False                                             |
+| 209 | children_4_children_2_children_2_is_service_provider  | nan                                               |
+| 210 | children_4_children_2_children_2_rating_type          | CURATED                                           |
+| 211 | children_4_children_2_children_2_rating_type          | nan                                               |
+| 212 | children_4_children_2_children_2_is_subscribed        | False                                             |
+| 213 | children_4_children_2_children_2_is_subscribed        | nan                                               |
+| 214 | children_4_children_2_children_2_children             | []                                                |
+| 215 | children_4_children_2_children_2_children             | nan                                               |
+| 216 | children_4_children_3_guid                            | 58629abb-a0a1-48cb-acbf-a078825aa6b8              |
+| 217 | children_4_children_3_guid                            | nan                                               |
+| 218 | children_4_children_3_name                            | KYOCERA Document Solutions Brazil                 |
+| 219 | children_4_children_3_name                            | nan                                               |
+| 220 | children_4_children_3_rating                          | 620.0                                             |
+| 221 | children_4_children_3_rating                          | nan                                               |
+| 222 | children_4_children_3_industry                        | Business Services                                 |
+| 223 | children_4_children_3_industry                        | nan                                               |
+| 224 | children_4_children_3_is_service_provider             | False                                             |
+| 225 | children_4_children_3_is_service_provider             | nan                                               |
+| 226 | children_4_children_3_rating_type                     | CURATED                                           |
+| 227 | children_4_children_3_rating_type                     | nan                                               |
+| 228 | children_4_children_3_is_subscribed                   | False                                             |
+| 229 | children_4_children_3_is_subscribed                   | nan                                               |
+| 230 | children_4_children_3_children                        | []                                                |
+| 231 | children_4_children_3_children                        | nan                                               |
+| 232 | children_4_children_4_guid                            | e32e733a-3111-468c-9bee-81b74542cfb9              |
+| 233 | children_4_children_4_guid                            | nan                                               |
+| 234 | children_4_children_4_name                            | KYOCERA Document Solutions Europe Group           |
+| 235 | children_4_children_4_name                            | nan                                               |
+| 236 | children_4_children_4_rating                          | 550.0                                             |
+| 237 | children_4_children_4_rating                          | nan                                               |
+| 238 | children_4_children_4_industry                        | Business Services                                 |
+| 239 | children_4_children_4_industry                        | nan                                               |
+| 240 | children_4_children_4_is_service_provider             | False                                             |
+| 241 | children_4_children_4_is_service_provider             | nan                                               |
+| 242 | children_4_children_4_rating_type                     | CURATED                                           |
+| 243 | children_4_children_4_rating_type                     | nan                                               |
+| 244 | children_4_children_4_is_subscribed                   | False                                             |
+| 245 | children_4_children_4_is_subscribed                   | nan                                               |
+| 246 | children_4_children_4_children_0_guid                 | 4a709042-c8cd-485c-8167-aac08fa68cce              |
+| 247 | children_4_children_4_children_0_guid                 | nan                                               |
+| 248 | children_4_children_4_children_0_name                 | KYOCERA Document Solutions (U.K.) Limited         |
+| 249 | children_4_children_4_children_0_name                 | nan                                               |
+| 250 | children_4_children_4_children_0_rating               | 740.0                                             |
+| 251 | children_4_children_4_children_0_rating               | nan                                               |
+| 252 | children_4_children_4_children_0_industry             | Business Services                                 |
+| 253 | children_4_children_4_children_0_industry             | nan                                               |
+| 254 | children_4_children_4_children_0_is_service_provider  | False                                             |
+| 255 | children_4_children_4_children_0_is_service_provider  | nan                                               |
+| 256 | children_4_children_4_children_0_rating_type          | CURATED                                           |
+| 257 | children_4_children_4_children_0_rating_type          | nan                                               |
+| 258 | children_4_children_4_children_0_is_subscribed        | False                                             |
+| 259 | children_4_children_4_children_0_is_subscribed        | nan                                               |
+| 260 | children_4_children_4_children_0_children             | []                                                |
+| 261 | children_4_children_4_children_0_children             | nan                                               |
+| 262 | children_4_children_4_children_1_guid                 | 6ce6e3c9-863b-468d-a0d7-4204092eab1e              |
+| 263 | children_4_children_4_children_1_guid                 | nan                                               |
+| 264 | children_4_children_4_children_1_name                 | KYOCERA Document Solutions Austria GmbH           |
+| 265 | children_4_children_4_children_1_name                 | nan                                               |
+| 266 | children_4_children_4_children_1_rating               | 740.0                                             |
+| 267 | children_4_children_4_children_1_rating               | nan                                               |
+| 268 | children_4_children_4_children_1_industry             | Business Services                                 |
+| 269 | children_4_children_4_children_1_industry             | nan                                               |
+| 270 | children_4_children_4_children_1_is_service_provider  | False                                             |
+| 271 | children_4_children_4_children_1_is_service_provider  | nan                                               |
+| 272 | children_4_children_4_children_1_rating_type          | CURATED                                           |
+| 273 | children_4_children_4_children_1_rating_type          | nan                                               |
+| 274 | children_4_children_4_children_1_is_subscribed        | False                                             |
+| 275 | children_4_children_4_children_1_is_subscribed        | nan                                               |
+| 276 | children_4_children_4_children_1_children             | []                                                |
+| 277 | children_4_children_4_children_1_children             | nan                                               |
+| 278 | children_4_children_4_children_2_guid                 | fe409d83-0260-4a38-a6aa-88309cf6947b              |
+| 279 | children_4_children_4_children_2_guid                 | nan                                               |
+| 280 | children_4_children_4_children_2_name                 | KYOCERA Document Solutions Belgium N.V.           |
+| 281 | children_4_children_4_children_2_name                 | nan                                               |
+| 282 | children_4_children_4_children_2_rating               | 490.0                                             |
+| 283 | children_4_children_4_children_2_rating               | nan                                               |
+| 284 | children_4_children_4_children_2_industry             | Business Services                                 |
+| 285 | children_4_children_4_children_2_industry             | nan                                               |
+| 286 | children_4_children_4_children_2_is_service_provider  | False                                             |
+| 287 | children_4_children_4_children_2_is_service_provider  | nan                                               |
+| 288 | children_4_children_4_children_2_rating_type          | CURATED                                           |
+| 289 | children_4_children_4_children_2_rating_type          | nan                                               |
+| 290 | children_4_children_4_children_2_is_subscribed        | False                                             |
+| 291 | children_4_children_4_children_2_is_subscribed        | nan                                               |
+| 292 | children_4_children_4_children_2_children             | []                                                |
+| 293 | children_4_children_4_children_2_children             | nan                                               |
+| 294 | children_4_children_4_children_3_guid                 | dc5062ad-862f-498e-8956-ae6a33155958              |
+| 295 | children_4_children_4_children_3_guid                 | nan                                               |
+| 296 | children_4_children_4_children_3_name                 | KYOCERA Document Solutions Denmark A/S            |
+| 297 | children_4_children_4_children_3_name                 | nan                                               |
+| 298 | children_4_children_4_children_3_rating               | 730.0                                             |
+| 299 | children_4_children_4_children_3_rating               | nan                                               |
+| 300 | children_4_children_4_children_3_industry             | Business Services                                 |
+| 301 | children_4_children_4_children_3_industry             | nan                                               |
+| 302 | children_4_children_4_children_3_is_service_provider  | False                                             |
+| 303 | children_4_children_4_children_3_is_service_provider  | nan                                               |
+| 304 | children_4_children_4_children_3_rating_type          | CURATED                                           |
+| 305 | children_4_children_4_children_3_rating_type          | nan                                               |
+| 306 | children_4_children_4_children_3_is_subscribed        | False                                             |
+| 307 | children_4_children_4_children_3_is_subscribed        | nan                                               |
+| 308 | children_4_children_4_children_3_children             | []                                                |
+| 309 | children_4_children_4_children_3_children             | nan                                               |
+| 310 | children_4_children_4_children_4_guid                 | f2ac7dbf-1ff0-4b41-9d2b-ffd35c5456bd              |
+| 311 | children_4_children_4_children_4_guid                 | nan                                               |
+| 312 | children_4_children_4_children_4_name                 | KYOCERA Document Solutions Deutschland GmbH       |
+| 313 | children_4_children_4_children_4_name                 | nan                                               |
+| 314 | children_4_children_4_children_4_rating               | 780.0                                             |
+| 315 | children_4_children_4_children_4_rating               | nan                                               |
+| 316 | children_4_children_4_children_4_industry             | Business Services                                 |
+| 317 | children_4_children_4_children_4_industry             | nan                                               |
+| 318 | children_4_children_4_children_4_is_service_provider  | False                                             |
+| 319 | children_4_children_4_children_4_is_service_provider  | nan                                               |
+| 320 | children_4_children_4_children_4_rating_type          | CURATED                                           |
+| 321 | children_4_children_4_children_4_rating_type          | nan                                               |
+| 322 | children_4_children_4_children_4_is_subscribed        | False                                             |
+| 323 | children_4_children_4_children_4_is_subscribed        | nan                                               |
+| 324 | children_4_children_4_children_4_children             | []                                                |
+| 325 | children_4_children_4_children_4_children             | nan                                               |
+| 326 | children_4_children_4_children_5_guid                 | 512eac6c-8161-4951-a8fa-a67d390efa83              |
+| 327 | children_4_children_4_children_5_guid                 | nan                                               |
+| 328 | children_4_children_4_children_5_name                 | KYOCERA Document Solutions EspaÃ±a S.A.           |
+| 329 | children_4_children_4_children_5_name                 | nan                                               |
+| 330 | children_4_children_4_children_5_rating               | 690.0                                             |
+| 331 | children_4_children_4_children_5_rating               | nan                                               |
+| 332 | children_4_children_4_children_5_industry             | Business Services                                 |
+| 333 | children_4_children_4_children_5_industry             | nan                                               |
+| 334 | children_4_children_4_children_5_is_service_provider  | False                                             |
+| 335 | children_4_children_4_children_5_is_service_provider  | nan                                               |
+| 336 | children_4_children_4_children_5_rating_type          | CURATED                                           |
+| 337 | children_4_children_4_children_5_rating_type          | nan                                               |
+| 338 | children_4_children_4_children_5_is_subscribed        | False                                             |
+| 339 | children_4_children_4_children_5_is_subscribed        | nan                                               |
+| 340 | children_4_children_4_children_5_children             | []                                                |
+| 341 | children_4_children_4_children_5_children             | nan                                               |
+| 342 | children_4_children_4_children_6_guid                 | 5cdcc6a0-6d96-48b9-b90b-2cd7e70f1f6a              |
+| 343 | children_4_children_4_children_6_guid                 | nan                                               |
+| 344 | children_4_children_4_children_6_name                 | KYOCERA Document Solutions Europe B.V.            |
+| 345 | children_4_children_4_children_6_name                 | nan                                               |
+| 346 | children_4_children_4_children_6_rating               | 730.0                                             |
+| 347 | children_4_children_4_children_6_rating               | nan                                               |
+| 348 | children_4_children_4_children_6_industry             | Business Services                                 |
+| 349 | children_4_children_4_children_6_industry             | nan                                               |
+| 350 | children_4_children_4_children_6_is_service_provider  | False                                             |
+| 351 | children_4_children_4_children_6_is_service_provider  | nan                                               |
+| 352 | children_4_children_4_children_6_rating_type          | CURATED                                           |
+| 353 | children_4_children_4_children_6_rating_type          | nan                                               |
+| 354 | children_4_children_4_children_6_is_subscribed        | False                                             |
+| 355 | children_4_children_4_children_6_is_subscribed        | nan                                               |
+| 356 | children_4_children_4_children_6_children             | []                                                |
+| 357 | children_4_children_4_children_6_children             | nan                                               |
+| 358 | children_4_children_4_children_7_guid                 | 00f35eed-8fa0-4699-a491-a1ecb5273ac0              |
+| 359 | children_4_children_4_children_7_guid                 | nan                                               |
+| 360 | children_4_children_4_children_7_name                 | KYOCERA Document Solutions Finland Oy             |
+| 361 | children_4_children_4_children_7_name                 | nan                                               |
+| 362 | children_4_children_4_children_7_rating               | 750.0                                             |
+| 363 | children_4_children_4_children_7_rating               | nan                                               |
+| 364 | children_4_children_4_children_7_industry             | Technology                                        |
+| 365 | children_4_children_4_children_7_industry             | nan                                               |
+| 366 | children_4_children_4_children_7_is_service_provider  | False                                             |
+| 367 | children_4_children_4_children_7_is_service_provider  | nan                                               |
+| 368 | children_4_children_4_children_7_rating_type          | CURATED                                           |
+| 369 | children_4_children_4_children_7_rating_type          | nan                                               |
+| 370 | children_4_children_4_children_7_is_subscribed        | False                                             |
+| 371 | children_4_children_4_children_7_is_subscribed        | nan                                               |
+| 372 | children_4_children_4_children_7_children             | []                                                |
+| 373 | children_4_children_4_children_7_children             | nan                                               |
+| 374 | children_4_children_4_children_8_guid                 | afe0c76c-7bff-4c08-ad45-6a08017f43a2              |
+| 375 | children_4_children_4_children_8_guid                 | nan                                               |
+| 376 | children_4_children_4_children_8_name                 | KYOCERA Document Solutions France S.A.S.          |
+| 377 | children_4_children_4_children_8_name                 | nan                                               |
+| 378 | children_4_children_4_children_8_rating               | 770.0                                             |
+| 379 | children_4_children_4_children_8_rating               | nan                                               |
+| 380 | children_4_children_4_children_8_industry             | Business Services                                 |
+| 381 | children_4_children_4_children_8_industry             | nan                                               |
+| 382 | children_4_children_4_children_8_is_service_provider  | False                                             |
+| 383 | children_4_children_4_children_8_is_service_provider  | nan                                               |
+| 384 | children_4_children_4_children_8_rating_type          | CURATED                                           |
+| 385 | children_4_children_4_children_8_rating_type          | nan                                               |
+| 386 | children_4_children_4_children_8_is_subscribed        | False                                             |
+| 387 | children_4_children_4_children_8_is_subscribed        | nan                                               |
+| 388 | children_4_children_4_children_8_children             | []                                                |
+| 389 | children_4_children_4_children_8_children             | nan                                               |
+| 390 | children_4_children_4_children_9_guid                 | c29c8e98-621f-4af9-b6a8-c01a190d115d              |
+| 391 | children_4_children_4_children_9_guid                 | nan                                               |
+| 392 | children_4_children_4_children_9_name                 | KYOCERA Document Solutions Italia S.p.A.          |
+| 393 | children_4_children_4_children_9_name                 | nan                                               |
+| 394 | children_4_children_4_children_9_rating               | 670.0                                             |
+| 395 | children_4_children_4_children_9_rating               | nan                                               |
+| 396 | children_4_children_4_children_9_industry             | Business Services                                 |
+| 397 | children_4_children_4_children_9_industry             | nan                                               |
+| 398 | children_4_children_4_children_9_is_service_provider  | False                                             |
+| 399 | children_4_children_4_children_9_is_service_provider  | nan                                               |
+| 400 | children_4_children_4_children_9_rating_type          | CURATED                                           |
+| 401 | children_4_children_4_children_9_rating_type          | nan                                               |
+| 402 | children_4_children_4_children_9_is_subscribed        | False                                             |
+| 403 | children_4_children_4_children_9_is_subscribed        | nan                                               |
+| 404 | children_4_children_4_children_9_children             | []                                                |
+| 405 | children_4_children_4_children_9_children             | nan                                               |
+| 406 | children_4_children_4_children_10_guid                | 49064d45-fc23-4671-8ed3-3732ba01b429              |
+| 407 | children_4_children_4_children_10_guid                | nan                                               |
+| 408 | children_4_children_4_children_10_name                | KYOCERA Document Solutions Middle East            |
+| 409 | children_4_children_4_children_10_name                | nan                                               |
+| 410 | children_4_children_4_children_10_rating              | 740.0                                             |
+| 411 | children_4_children_4_children_10_rating              | nan                                               |
+| 412 | children_4_children_4_children_10_industry            | Business Services                                 |
+| 413 | children_4_children_4_children_10_industry            | nan                                               |
+| 414 | children_4_children_4_children_10_is_service_provider | False                                             |
+| 415 | children_4_children_4_children_10_is_service_provider | nan                                               |
+| 416 | children_4_children_4_children_10_rating_type         | CURATED                                           |
+| 417 | children_4_children_4_children_10_rating_type         | nan                                               |
+| 418 | children_4_children_4_children_10_is_subscribed       | False                                             |
+| 419 | children_4_children_4_children_10_is_subscribed       | nan                                               |
+| 420 | children_4_children_4_children_10_children            | []                                                |
+| 421 | children_4_children_4_children_10_children            | nan                                               |
+| 422 | children_4_children_4_children_11_guid                | 35c100af-bfaa-4bb3-b124-395f5f9ad497              |
+| 423 | children_4_children_4_children_11_guid                | nan                                               |
+| 424 | children_4_children_4_children_11_name                | KYOCERA Document Solutions Norge NUF              |
+| 425 | children_4_children_4_children_11_name                | nan                                               |
+| 426 | children_4_children_4_children_11_rating              | 740.0                                             |
+| 427 | children_4_children_4_children_11_rating              | nan                                               |
+| 428 | children_4_children_4_children_11_industry            | Business Services                                 |
+| 429 | children_4_children_4_children_11_industry            | nan                                               |
+| 430 | children_4_children_4_children_11_is_service_provider | False                                             |
+| 431 | children_4_children_4_children_11_is_service_provider | nan                                               |
+| 432 | children_4_children_4_children_11_rating_type         | CURATED                                           |
+| 433 | children_4_children_4_children_11_rating_type         | nan                                               |
+| 434 | children_4_children_4_children_11_is_subscribed       | False                                             |
+| 435 | children_4_children_4_children_11_is_subscribed       | nan                                               |
+| 436 | children_4_children_4_children_11_children            | []                                                |
+| 437 | children_4_children_4_children_11_children            | nan                                               |
+| 438 | children_4_children_4_children_12_guid                | 8a39941d-2b9f-40c3-ba4f-b90b3163a1b1              |
+| 439 | children_4_children_4_children_12_guid                | nan                                               |
+| 440 | children_4_children_4_children_12_name                | KYOCERA Document Solutions Russia LLC             |
+| 441 | children_4_children_4_children_12_name                | nan                                               |
+| 442 | children_4_children_4_children_12_rating              | 740.0                                             |
+| 443 | children_4_children_4_children_12_rating              | nan                                               |
+| 444 | children_4_children_4_children_12_industry            | Business Services                                 |
+| 445 | children_4_children_4_children_12_industry            | nan                                               |
+| 446 | children_4_children_4_children_12_is_service_provider | False                                             |
+| 447 | children_4_children_4_children_12_is_service_provider | nan                                               |
+| 448 | children_4_children_4_children_12_rating_type         | CURATED                                           |
+| 449 | children_4_children_4_children_12_rating_type         | nan                                               |
+| 450 | children_4_children_4_children_12_is_subscribed       | False                                             |
+| 451 | children_4_children_4_children_12_is_subscribed       | nan                                               |
+| 452 | children_4_children_4_children_12_children            | []                                                |
+| 453 | children_4_children_4_children_12_children            | nan                                               |
+| 454 | children_4_children_5_guid                            | 232770b2-7095-42b8-99ef-63798b3676b7              |
+| 455 | children_4_children_5_guid                            | nan                                               |
+| 456 | children_4_children_5_name                            | KYOCERA Document Solutions Inc.                   |
+| 457 | children_4_children_5_name                            | nan                                               |
+| 458 | children_4_children_5_rating                          | 630.0                                             |
+| 459 | children_4_children_5_rating                          | nan                                               |
+| 460 | children_4_children_5_industry                        | Business Services                                 |
+| 461 | children_4_children_5_industry                        | nan                                               |
+| 462 | children_4_children_5_is_service_provider             | False                                             |
+| 463 | children_4_children_5_is_service_provider             | nan                                               |
+| 464 | children_4_children_5_rating_type                     | CURATED                                           |
+| 465 | children_4_children_5_rating_type                     | nan                                               |
+| 466 | children_4_children_5_is_subscribed                   | False                                             |
+| 467 | children_4_children_5_is_subscribed                   | nan                                               |
+| 468 | children_4_children_5_children                        | []                                                |
+| 469 | children_4_children_5_children                        | nan                                               |
+| 470 | children_4_children_6_guid                            | 09380a90-a0a4-4a58-9406-691f2ddfd58d              |
+| 471 | children_4_children_6_guid                            | nan                                               |
+| 472 | children_4_children_6_name                            | KYOCERA Document Solutions New England, Inc.      |
+| 473 | children_4_children_6_name                            | nan                                               |
+| 474 | children_4_children_6_rating                          | 570.0                                             |
+| 475 | children_4_children_6_rating                          | nan                                               |
+| 476 | children_4_children_6_industry                        | Business Services                                 |
+| 477 | children_4_children_6_industry                        | nan                                               |
+| 478 | children_4_children_6_is_service_provider             | False                                             |
+| 479 | children_4_children_6_is_service_provider             | nan                                               |
+| 480 | children_4_children_6_rating_type                     | CURATED                                           |
+| 481 | children_4_children_6_rating_type                     | nan                                               |
+| 482 | children_4_children_6_is_subscribed                   | False                                             |
+| 483 | children_4_children_6_is_subscribed                   | nan                                               |
+| 484 | children_4_children_6_children                        | []                                                |
+| 485 | children_4_children_6_children                        | nan                                               |
+| 486 | children_4_children_7_guid                            | 51b7729b-7fb6-4f18-807d-dd6125acd60a              |
+| 487 | children_4_children_7_guid                            | nan                                               |
+| 488 | children_4_children_7_name                            | TA Triumph-Adler GmbH                             |
+| 489 | children_4_children_7_name                            | nan                                               |
+| 490 | children_4_children_7_rating                          | 680.0                                             |
+| 491 | children_4_children_7_rating                          | nan                                               |
+| 492 | children_4_children_7_industry                        | Technology                                        |
+| 493 | children_4_children_7_industry                        | nan                                               |
+| 494 | children_4_children_7_is_service_provider             | False                                             |
+| 495 | children_4_children_7_is_service_provider             | nan                                               |
+| 496 | children_4_children_7_rating_type                     | CURATED                                           |
+| 497 | children_4_children_7_rating_type                     | nan                                               |
+| 498 | children_4_children_7_is_subscribed                   | False                                             |
+| 499 | children_4_children_7_is_subscribed                   | nan                                               |
+| 500 | children_4_children_7_children                        | []                                                |
+| 501 | children_4_children_7_children                        | nan                                               |
+| 502 | children_5_guid                                       | 9d00093b-10f4-4675-b6a1-3153c52fd6bf              |
+| 503 | children_5_guid                                       | nan                                               |
+| 504 | children_5_name                                       | KYOCERA Fineceramics Group                        |
+| 505 | children_5_name                                       | nan                                               |
+| 506 | children_5_rating                                     | 620.0                                             |
+| 507 | children_5_rating                                     | nan                                               |
+| 508 | children_5_industry                                   | Manufacturing                                     |
+| 509 | children_5_industry                                   | nan                                               |
+| 510 | children_5_is_service_provider                        | False                                             |
+| 511 | children_5_is_service_provider                        | nan                                               |
+| 512 | children_5_rating_type                                | CURATED                                           |
+| 513 | children_5_rating_type                                | nan                                               |
+| 514 | children_5_is_subscribed                              | False                                             |
+| 515 | children_5_is_subscribed                              | nan                                               |
+| 516 | children_5_children_0_guid                            | 2a5d7b7b-18d8-4302-85d1-f1f53fc8a6aa              |
+| 517 | children_5_children_0_guid                            | nan                                               |
+| 518 | children_5_children_0_name                            | KYOCERA Fineceramics GmbH                         |
+| 519 | children_5_children_0_name                            | nan                                               |
+| 520 | children_5_children_0_rating                          | 700.0                                             |
+| 521 | children_5_children_0_rating                          | nan                                               |
+| 522 | children_5_children_0_industry                        | Manufacturing                                     |
+| 523 | children_5_children_0_industry                        | nan                                               |
+| 524 | children_5_children_0_is_service_provider             | False                                             |
+| 525 | children_5_children_0_is_service_provider             | nan                                               |
+| 526 | children_5_children_0_rating_type                     | CURATED                                           |
+| 527 | children_5_children_0_rating_type                     | nan                                               |
+| 528 | children_5_children_0_is_subscribed                   | False                                             |
+| 529 | children_5_children_0_is_subscribed                   | nan                                               |
+| 530 | children_5_children_0_children                        | []                                                |
+| 531 | children_5_children_0_children                        | nan                                               |
+| 532 | children_5_children_1_guid                            | b4194b6a-2935-4f17-910c-1842d9ad1a55              |
+| 533 | children_5_children_1_guid                            | nan                                               |
+| 534 | children_5_children_1_name                            | KYOCERA Fineceramics Ltd                          |
+| 535 | children_5_children_1_name                            | nan                                               |
+| 536 | children_5_children_1_rating                          | 760.0                                             |
+| 537 | children_5_children_1_rating                          | nan                                               |
+| 538 | children_5_children_1_industry                        | Manufacturing                                     |
+| 539 | children_5_children_1_industry                        | nan                                               |
+| 540 | children_5_children_1_is_service_provider             | False                                             |
+| 541 | children_5_children_1_is_service_provider             | nan                                               |
+| 542 | children_5_children_1_rating_type                     | CURATED                                           |
+| 543 | children_5_children_1_rating_type                     | nan                                               |
+| 544 | children_5_children_1_is_subscribed                   | False                                             |
+| 545 | children_5_children_1_is_subscribed                   | nan                                               |
+| 546 | children_5_children_1_children                        | []                                                |
+| 547 | children_5_children_1_children                        | nan                                               |
+| 548 | children_5_children_2_guid                            | 431ef8db-be7a-4da1-b4ac-30387feaac0e              |
+| 549 | children_5_children_2_guid                            | nan                                               |
+| 550 | children_5_children_2_name                            | KYOCERA UNIMERCO Group                            |
+| 551 | children_5_children_2_name                            | nan                                               |
+| 552 | children_5_children_2_rating                          | 610.0                                             |
+| 553 | children_5_children_2_rating                          | nan                                               |
+| 554 | children_5_children_2_industry                        | Engineering                                       |
+| 555 | children_5_children_2_industry                        | nan                                               |
+| 556 | children_5_children_2_is_service_provider             | False                                             |
+| 557 | children_5_children_2_is_service_provider             | nan                                               |
+| 558 | children_5_children_2_rating_type                     | CURATED                                           |
+| 559 | children_5_children_2_rating_type                     | nan                                               |
+| 560 | children_5_children_2_is_subscribed                   | False                                             |
+| 561 | children_5_children_2_is_subscribed                   | nan                                               |
+| 562 | children_5_children_2_children_0_guid                 | dda08a8c-4648-4430-9be8-a0eb975a5bf7              |
+| 563 | children_5_children_2_children_0_guid                 | nan                                               |
+| 564 | children_5_children_2_children_0_name                 | KYOCERA UNIMERCO A/S                              |
+| 565 | children_5_children_2_children_0_name                 | nan                                               |
+| 566 | children_5_children_2_children_0_rating               | 620.0                                             |
+| 567 | children_5_children_2_children_0_rating               | nan                                               |
+| 568 | children_5_children_2_children_0_industry             | Engineering                                       |
+| 569 | children_5_children_2_children_0_industry             | nan                                               |
+| 570 | children_5_children_2_children_0_is_service_provider  | False                                             |
+| 571 | children_5_children_2_children_0_is_service_provider  | nan                                               |
+| 572 | children_5_children_2_children_0_rating_type          | CURATED                                           |
+| 573 | children_5_children_2_children_0_rating_type          | nan                                               |
+| 574 | children_5_children_2_children_0_is_subscribed        | False                                             |
+| 575 | children_5_children_2_children_0_is_subscribed        | nan                                               |
+| 576 | children_5_children_2_children_0_children             | []                                                |
+| 577 | children_5_children_2_children_0_children             | nan                                               |
+| 578 | children_5_children_2_children_1_guid                 | 2f28866f-99e8-4dfb-a978-3866c529df2f              |
+| 579 | children_5_children_2_children_1_guid                 | nan                                               |
+| 580 | children_5_children_2_children_1_name                 | KYOCERA UNIMERCO Tooling AS (Norway)              |
+| 581 | children_5_children_2_children_1_name                 | nan                                               |
+| 582 | children_5_children_2_children_1_rating               | 760.0                                             |
+| 583 | children_5_children_2_children_1_rating               | nan                                               |
+| 584 | children_5_children_2_children_1_industry             | Engineering                                       |
+| 585 | children_5_children_2_children_1_industry             | nan                                               |
+| 586 | children_5_children_2_children_1_is_service_provider  | False                                             |
+| 587 | children_5_children_2_children_1_is_service_provider  | nan                                               |
+| 588 | children_5_children_2_children_1_rating_type          | CURATED                                           |
+| 589 | children_5_children_2_children_1_rating_type          | nan                                               |
+| 590 | children_5_children_2_children_1_is_subscribed        | False                                             |
+| 591 | children_5_children_2_children_1_is_subscribed        | nan                                               |
+| 592 | children_5_children_2_children_1_children             | []                                                |
+| 593 | children_5_children_2_children_1_children             | nan                                               |
+| 594 | children_5_children_2_children_2_guid                 | 1722fd16-fc46-4212-9c55-4b7e8cc3227f              |
+| 595 | children_5_children_2_children_2_guid                 | nan                                               |
+| 596 | children_5_children_2_children_2_name                 | KYOCERA UNIMERCO Tooling GmbH                     |
+| 597 | children_5_children_2_children_2_name                 | nan                                               |
+| 598 | children_5_children_2_children_2_rating               | 660.0                                             |
+| 599 | children_5_children_2_children_2_rating               | nan                                               |
+| 600 | children_5_children_2_children_2_industry             | Engineering                                       |
+| 601 | children_5_children_2_children_2_industry             | nan                                               |
+| 602 | children_5_children_2_children_2_is_service_provider  | False                                             |
+| 603 | children_5_children_2_children_2_is_service_provider  | nan                                               |
+| 604 | children_5_children_2_children_2_rating_type          | CURATED                                           |
+| 605 | children_5_children_2_children_2_rating_type          | nan                                               |
+| 606 | children_5_children_2_children_2_is_subscribed        | False                                             |
+| 607 | children_5_children_2_children_2_is_subscribed        | nan                                               |
+| 608 | children_5_children_2_children_2_children             | []                                                |
+| 609 | children_5_children_2_children_2_children             | nan                                               |
+| 610 | children_5_children_2_children_3_guid                 | 52258991-fdfd-4279-bf1d-50bb08f122c0              |
+| 611 | children_5_children_2_children_3_guid                 | nan                                               |
+| 612 | children_5_children_2_children_3_name                 | KYOCERA UNIMERCO Tooling Inc.                     |
+| 613 | children_5_children_2_children_3_name                 | nan                                               |
+| 614 | children_5_children_2_children_3_rating               | 740.0                                             |
+| 615 | children_5_children_2_children_3_rating               | nan                                               |
+| 616 | children_5_children_2_children_3_industry             | Engineering                                       |
+| 617 | children_5_children_2_children_3_industry             | nan                                               |
+| 618 | children_5_children_2_children_3_is_service_provider  | False                                             |
+| 619 | children_5_children_2_children_3_is_service_provider  | nan                                               |
+| 620 | children_5_children_2_children_3_rating_type          | CURATED                                           |
+| 621 | children_5_children_2_children_3_rating_type          | nan                                               |
+| 622 | children_5_children_2_children_3_is_subscribed        | False                                             |
+| 623 | children_5_children_2_children_3_is_subscribed        | nan                                               |
+| 624 | children_5_children_2_children_3_children             | []                                                |
+| 625 | children_5_children_2_children_3_children             | nan                                               |
+| 626 | children_5_children_2_children_4_guid                 | e63c4318-bef1-4bea-9af1-5262917c2c04              |
+| 627 | children_5_children_2_children_4_guid                 | nan                                               |
+| 628 | children_5_children_2_children_4_name                 | KYOCERA UNIMERCO Tooling Ltd.                     |
+| 629 | children_5_children_2_children_4_name                 | nan                                               |
+| 630 | children_5_children_2_children_4_rating               | 760.0                                             |
+| 631 | children_5_children_2_children_4_rating               | nan                                               |
+| 632 | children_5_children_2_children_4_industry             | Engineering                                       |
+| 633 | children_5_children_2_children_4_industry             | nan                                               |
+| 634 | children_5_children_2_children_4_is_service_provider  | False                                             |
+| 635 | children_5_children_2_children_4_is_service_provider  | nan                                               |
+| 636 | children_5_children_2_children_4_rating_type          | CURATED                                           |
+| 637 | children_5_children_2_children_4_rating_type          | nan                                               |
+| 638 | children_5_children_2_children_4_is_subscribed        | False                                             |
+| 639 | children_5_children_2_children_4_is_subscribed        | nan                                               |
+| 640 | children_5_children_2_children_4_children             | []                                                |
+| 641 | children_5_children_2_children_4_children             | nan                                               |
+| 642 | children_6_guid                                       | 960b263d-6db7-49be-a673-a5fb596eccfd              |
+| 643 | children_6_guid                                       | nan                                               |
+| 644 | children_6_name                                       | KYOCERA France                                    |
+| 645 | children_6_name                                       | nan                                               |
+| 646 | children_6_rating                                     | 710.0                                             |
+| 647 | children_6_rating                                     | nan                                               |
+| 648 | children_6_industry                                   | Manufacturing                                     |
+| 649 | children_6_industry                                   | nan                                               |
+| 650 | children_6_is_service_provider                        | False                                             |
+| 651 | children_6_is_service_provider                        | nan                                               |
+| 652 | children_6_rating_type                                | CURATED                                           |
+| 653 | children_6_rating_type                                | nan                                               |
+| 654 | children_6_is_subscribed                              | False                                             |
+| 655 | children_6_is_subscribed                              | nan                                               |
+| 656 | children_6_children                                   | []                                                |
+| 657 | children_6_children                                   | nan                                               |
+| 658 | children_7_guid                                       | 9fc1b6b3-20af-4df0-87a6-fd852e66c92e              |
+| 659 | children_7_guid                                       | nan                                               |
+| 660 | children_7_name                                       | KYOCERA Italia                                    |
+| 661 | children_7_name                                       | nan                                               |
+| 662 | children_7_rating                                     | 720.0                                             |
+| 663 | children_7_rating                                     | nan                                               |
+| 664 | children_7_industry                                   | Manufacturing                                     |
+| 665 | children_7_industry                                   | nan                                               |
+| 666 | children_7_is_service_provider                        | False                                             |
+| 667 | children_7_is_service_provider                        | nan                                               |
+| 668 | children_7_rating_type                                | CURATED                                           |
+| 669 | children_7_rating_type                                | nan                                               |
+| 670 | children_7_is_subscribed                              | False                                             |
+| 671 | children_7_is_subscribed                              | nan                                               |
+| 672 | children_7_children                                   | []                                                |
+| 673 | children_7_children                                   | nan                                               |
+| 674 | children_8_guid                                       | eecb8129-2674-44ae-b973-8932de5b31df              |
+| 675 | children_8_guid                                       | nan                                               |
+| 676 | children_8_name                                       | KYOCERA Mexicana, S.A. de C.V.                    |
+| 677 | children_8_name                                       | nan                                               |
+| 678 | children_8_rating                                     | 730.0                                             |
+| 679 | children_8_rating                                     | nan                                               |
+| 680 | children_8_industry                                   | Manufacturing                                     |
+| 681 | children_8_industry                                   | nan                                               |
+| 682 | children_8_is_service_provider                        | False                                             |
+| 683 | children_8_is_service_provider                        | nan                                               |
+| 684 | children_8_rating_type                                | CURATED                                           |
+| 685 | children_8_rating_type                                | nan                                               |
+| 686 | children_8_is_subscribed                              | False                                             |
+| 687 | children_8_is_subscribed                              | nan                                               |
+| 688 | children_8_children                                   | []                                                |
+| 689 | children_8_children                                   | nan                                               |
+| 690 | children_9_guid                                       | 86beb991-da5c-4ec7-aebd-f0b1f0a2e3cd              |
+| 691 | children_9_guid                                       | nan                                               |
+| 692 | children_9_name                                       | KYOCERA Optec Co., Ltd.                           |
+| 693 | children_9_name                                       | nan                                               |
+| 694 | children_9_rating                                     | 730.0                                             |
+| 695 | children_9_rating                                     | nan                                               |
+| 696 | children_9_industry                                   | Manufacturing                                     |
+| 697 | children_9_industry                                   | nan                                               |
+| 698 | children_9_is_service_provider                        | False                                             |
+| 699 | children_9_is_service_provider                        | nan                                               |
+| 700 | children_9_rating_type                                | CURATED                                           |
+| 701 | children_9_rating_type                                | nan                                               |
+| 702 | children_9_is_subscribed                              | False                                             |
+| 703 | children_9_is_subscribed                              | nan                                               |
+| 704 | children_9_children                                   | []                                                |
+| 705 | children_9_children                                   | nan                                               |
+| 706 | children_10_guid                                      | 1bef262e-2a12-45c4-912c-494edb2494d2              |
+| 707 | children_10_guid                                      | nan                                               |
+| 708 | children_10_name                                      | KYOCERA Portugal                                  |
+| 709 | children_10_name                                      | nan                                               |
+| 710 | children_10_rating                                    | 720.0                                             |
+| 711 | children_10_rating                                    | nan                                               |
+| 712 | children_10_industry                                  | Manufacturing                                     |
+| 713 | children_10_industry                                  | nan                                               |
+| 714 | children_10_is_service_provider                       | False                                             |
+| 715 | children_10_is_service_provider                       | nan                                               |
+| 716 | children_10_rating_type                               | CURATED                                           |
+| 717 | children_10_rating_type                               | nan                                               |
+| 718 | children_10_is_subscribed                             | False                                             |
+| 719 | children_10_is_subscribed                             | nan                                               |
+| 720 | children_10_children                                  | []                                                |
+| 721 | children_10_children                                  | nan                                               |
+| 722 | children_11_guid                                      | b833f149-5e47-48fe-8fe5-2cc695f8b659              |
+| 723 | children_11_guid                                      | nan                                               |
+| 724 | children_11_name                                      | KYOCERA Precision Tools, Inc.                     |
+| 725 | children_11_name                                      | nan                                               |
+| 726 | children_11_rating                                    | 670.0                                             |
+| 727 | children_11_rating                                    | nan                                               |
+| 728 | children_11_industry                                  | Manufacturing                                     |
+| 729 | children_11_industry                                  | nan                                               |
+| 730 | children_11_is_service_provider                       | False                                             |
+| 731 | children_11_is_service_provider                       | nan                                               |
+| 732 | children_11_rating_type                               | CURATED                                           |
+| 733 | children_11_rating_type                               | nan                                               |
+| 734 | children_11_is_subscribed                             | False                                             |
+| 735 | children_11_is_subscribed                             | nan                                               |
+| 736 | children_11_children                                  | []                                                |
+| 737 | children_11_children                                  | nan                                               |
+| 738 | children_12_guid                                      | 8eba2032-19e2-43cf-979a-2b9f2105de52              |
+| 739 | children_12_guid                                      | nan                                               |
+| 740 | children_12_name                                      | KYOCERA Russia                                    |
+| 741 | children_12_name                                      | nan                                               |
+| 742 | children_12_rating                                    | 720.0                                             |
+| 743 | children_12_rating                                    | nan                                               |
+| 744 | children_12_industry                                  | Manufacturing                                     |
+| 745 | children_12_industry                                  | nan                                               |
+| 746 | children_12_is_service_provider                       | False                                             |
+| 747 | children_12_is_service_provider                       | nan                                               |
+| 748 | children_12_rating_type                               | CURATED                                           |
+| 749 | children_12_rating_type                               | nan                                               |
+| 750 | children_12_is_subscribed                             | False                                             |
+| 751 | children_12_is_subscribed                             | nan                                               |
+| 752 | children_12_children                                  | []                                                |
+| 753 | children_12_children                                  | nan                                               |
+| 754 | children_13_guid                                      | 708e91f9-1197-4cee-a3bf-d407c80c2f61              |
+| 755 | children_13_guid                                      | nan                                               |
+| 756 | children_13_name                                      | KYOCERA SENCO Industrial Tools Group              |
+| 757 | children_13_name                                      | nan                                               |
+| 758 | children_13_rating                                    | 530.0                                             |
+| 759 | children_13_rating                                    | nan                                               |
+| 760 | children_13_industry                                  | Engineering                                       |
+| 761 | children_13_industry                                  | nan                                               |
+| 762 | children_13_is_service_provider                       | False                                             |
+| 763 | children_13_is_service_provider                       | nan                                               |
+| 764 | children_13_rating_type                               | CURATED                                           |
+| 765 | children_13_rating_type                               | nan                                               |
+| 766 | children_13_is_subscribed                             | True                                              |
+| 767 | children_13_is_subscribed                             | nan                                               |
+| 768 | children_13_children_0_guid                           | 233ed996-11fb-42a6-95df-ec253ab4b4d1              |
+| 769 | children_13_children_0_guid                           | nan                                               |
+| 770 | children_13_children_0_name                           | KYOCERA SENCO Industrial Tools, Inc.              |
+| 771 | children_13_children_0_name                           | nan                                               |
+| 772 | children_13_children_0_rating                         | 610.0                                             |
+| 773 | children_13_children_0_rating                         | nan                                               |
+| 774 | children_13_children_0_industry                       | Engineering                                       |
+| 775 | children_13_children_0_industry                       | nan                                               |
+| 776 | children_13_children_0_is_service_provider            | False                                             |
+| 777 | children_13_children_0_is_service_provider            | nan                                               |
+| 778 | children_13_children_0_rating_type                    | CURATED                                           |
+| 779 | children_13_children_0_rating_type                    | nan                                               |
+| 780 | children_13_children_0_is_subscribed                  | True                                              |
+| 781 | children_13_children_0_is_subscribed                  | nan                                               |
+| 782 | children_13_children_0_children                       | []                                                |
+| 783 | children_13_children_0_children                       | nan                                               |
+| 784 | children_13_children_1_guid                           | b17dce7b-8d46-4048-a9b0-8a1697abefee              |
+| 785 | children_13_children_1_guid                           | nan                                               |
+| 786 | children_13_children_1_name                           | KYOCERA SENCO Netherlands Companies               |
+| 787 | children_13_children_1_name                           | nan                                               |
+| 788 | children_13_children_1_rating                         | 520.0                                             |
+| 789 | children_13_children_1_rating                         | nan                                               |
+| 790 | children_13_children_1_industry                       | Engineering                                       |
+| 791 | children_13_children_1_industry                       | nan                                               |
+| 792 | children_13_children_1_is_service_provider            | False                                             |
+| 793 | children_13_children_1_is_service_provider            | nan                                               |
+| 794 | children_13_children_1_rating_type                    | CURATED                                           |
+| 795 | children_13_children_1_rating_type                    | nan                                               |
+| 796 | children_13_children_1_is_subscribed                  | False                                             |
+| 797 | children_13_children_1_is_subscribed                  | nan                                               |
+| 798 | children_13_children_1_children_0_guid                | 859e3bc6-fd1b-46f9-9195-46d5333f567a              |
+| 799 | children_13_children_1_children_0_guid                | nan                                               |
+| 800 | children_13_children_1_children_0_name                | KYOCERA SENCO Deutschland                         |
+| 801 | children_13_children_1_children_0_name                | nan                                               |
+| 802 | children_13_children_1_children_0_rating              | 570.0                                             |
+| 803 | children_13_children_1_children_0_rating              | nan                                               |
+| 804 | children_13_children_1_children_0_industry            | Manufacturing                                     |
+| 805 | children_13_children_1_children_0_industry            | nan                                               |
+| 806 | children_13_children_1_children_0_is_service_provider | False                                             |
+| 807 | children_13_children_1_children_0_is_service_provider | nan                                               |
+| 808 | children_13_children_1_children_0_rating_type         | CURATED                                           |
+| 809 | children_13_children_1_children_0_rating_type         | nan                                               |
+| 810 | children_13_children_1_children_0_is_subscribed       | False                                             |
+| 811 | children_13_children_1_children_0_is_subscribed       | nan                                               |
+| 812 | children_13_children_1_children_0_children            | []                                                |
+| 813 | children_13_children_1_children_0_children            | nan                                               |
+| 814 | children_13_children_1_children_1_guid                | e5861f3b-73e7-4b38-aa15-e426fa36e15c              |
+| 815 | children_13_children_1_children_1_guid                | nan                                               |
+| 816 | children_13_children_1_children_1_name                | KYOCERA SENCO Netherlands B.V.                    |
+| 817 | children_13_children_1_children_1_name                | nan                                               |
+| 818 | children_13_children_1_children_1_rating              | 580.0                                             |
+| 819 | children_13_children_1_children_1_rating              | nan                                               |
+| 820 | children_13_children_1_children_1_industry            | Business Services                                 |
+| 821 | children_13_children_1_children_1_industry            | nan                                               |
+| 822 | children_13_children_1_children_1_is_service_provider | False                                             |
+| 823 | children_13_children_1_children_1_is_service_provider | nan                                               |
+| 824 | children_13_children_1_children_1_rating_type         | CURATED                                           |
+| 825 | children_13_children_1_children_1_rating_type         | nan                                               |
+| 826 | children_13_children_1_children_1_is_subscribed       | False                                             |
+| 827 | children_13_children_1_children_1_is_subscribed       | nan                                               |
+| 828 | children_13_children_1_children_1_children            | []                                                |
+| 829 | children_13_children_1_children_1_children            | nan                                               |
+| 830 | children_13_children_1_children_2_guid                | f5265a90-bf28-4a3a-9e1a-023ef1e22195              |
+| 831 | children_13_children_1_children_2_guid                | nan                                               |
+| 832 | children_13_children_1_children_2_name                | KYOCERA SENCO UK                                  |
+| 833 | children_13_children_1_children_2_name                | nan                                               |
+| 834 | children_13_children_1_children_2_rating              | 720.0                                             |
+| 835 | children_13_children_1_children_2_rating              | nan                                               |
+| 836 | children_13_children_1_children_2_industry            | Manufacturing                                     |
+| 837 | children_13_children_1_children_2_industry            | nan                                               |
+| 838 | children_13_children_1_children_2_is_service_provider | False                                             |
+| 839 | children_13_children_1_children_2_is_service_provider | nan                                               |
+| 840 | children_13_children_1_children_2_rating_type         | CURATED                                           |
+| 841 | children_13_children_1_children_2_rating_type         | nan                                               |
+| 842 | children_13_children_1_children_2_is_subscribed       | False                                             |
+| 843 | children_13_children_1_children_2_is_subscribed       | nan                                               |
+| 844 | children_13_children_1_children_2_children            | []                                                |
+| 845 | children_13_children_1_children_2_children            | nan                                               |
+| 846 | children_13_children_2_guid                           | fe025d9b-97a3-452b-b65a-fe9d7fc9ebb4              |
+| 847 | children_13_children_2_guid                           | nan                                               |
+| 848 | children_13_children_2_name                           | SENCO LatÃ­n AmÃ©rica S.A.S.                      |
+| 849 | children_13_children_2_name                           | nan                                               |
+| 850 | children_13_children_2_rating                         | 730.0                                             |
+| 851 | children_13_children_2_rating                         | nan                                               |
+| 852 | children_13_children_2_industry                       | Engineering                                       |
+| 853 | children_13_children_2_industry                       | nan                                               |
+| 854 | children_13_children_2_is_service_provider            | False                                             |
+| 855 | children_13_children_2_is_service_provider            | nan                                               |
+| 856 | children_13_children_2_rating_type                    | CURATED                                           |
+| 857 | children_13_children_2_rating_type                    | nan                                               |
+| 858 | children_13_children_2_is_subscribed                  | False                                             |
+| 859 | children_13_children_2_is_subscribed                  | nan                                               |
+| 860 | children_13_children_2_children                       | []                                                |
+| 861 | children_13_children_2_children                       | nan                                               |
+| 862 | children_14_guid                                      | d8453fc4-da76-4c50-84ad-09ef835f15a3              |
+| 863 | children_14_guid                                      | nan                                               |
+| 864 | children_14_name                                      | KYOCERA do Brasil Componentes Industriais Ltda.   |
+| 865 | children_14_name                                      | nan                                               |
+| 866 | children_14_rating                                    | 740.0                                             |
+| 867 | children_14_rating                                    | nan                                               |
+| 868 | children_14_industry                                  | Engineering                                       |
+| 869 | children_14_industry                                  | nan                                               |
+| 870 | children_14_is_service_provider                       | False                                             |
+| 871 | children_14_is_service_provider                       | nan                                               |
+| 872 | children_14_rating_type                               | CURATED                                           |
+| 873 | children_14_rating_type                               | nan                                               |
+| 874 | children_14_is_subscribed                             | False                                             |
+| 875 | children_14_is_subscribed                             | nan                                               |
+| 876 | children_14_children                                  | []                                                |
+| 877 | children_14_children                                  | nan                                               |
+| 878 | children_15_guid                                      | 6c5133db-a43a-4e22-b224-24bfe4b3cd53              |
+| 879 | children_15_guid                                      | nan                                               |
+| 880 | children_15_name                                      | Kyocera Solar, Inc.                               |
+| 881 | children_15_name                                      | nan                                               |
+| 882 | children_15_rating                                    | 710.0                                             |
+| 883 | children_15_rating                                    | nan                                               |
+| 884 | children_15_industry                                  | Energy/Resources                                  |
+| 885 | children_15_industry                                  | nan                                               |
+| 886 | children_15_is_service_provider                       | False                                             |
+| 887 | children_15_is_service_provider                       | nan                                               |
+| 888 | children_15_rating_type                               | CURATED                                           |
+| 889 | children_15_rating_type                               | nan                                               |
+| 890 | children_15_is_subscribed                             | False                                             |
+| 891 | children_15_is_subscribed                             | nan                                               |
+| 892 | children_15_children                                  | []                                                |
+| 893 | children_15_children                                  | nan                                               |
+| 894 | EventTS                                               | 2018-10-15T18:37:27.712Z                          |
+| 895 | EventTS                                               | 2018-10-15T18:36:26.690Z                          |
+| 896 | EventTypeCd                                           | BITSIGHT                                          |
+| 897 | EventTypeCd                                           | BITSIGHT                                          |
+| 898 | FormCd                                                | Companies_GUID_Company-tree                       |
+| 899 | FormCd                                                | Companies_GUID_Company-tree                       |
++-----+-------------------------------------------------------+---------------------------------------------------+
+
+Process finished with exit code 0
